@@ -16,7 +16,12 @@ Para alterar o nome do arquivo tanto em excel como CSV.
   * XLSX.utils.book_append_sheet(workbook, worksheet, "nome-arquivo");
 * XLSX.writeFile(workbook, "nome-arquivo.xlsx", { compression: true });
 </pre>
-<div class="zeroclipboard-container position-absolute right-0 top-0">
+
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-v">AwesomeButton</span> <span class="pl-k">from</span> <span class="pl-s">"react-native-really-awesome-button"</span><span class="pl-kos">;</span>
+
+<span class="pl-k">function</span> <span class="pl-v">Button</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-k">return</span> <span class="pl-c1">&lt;</span><span class="pl-ent">AwesomeButton</span><span class="pl-c1">&gt;</span>Text<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">AwesomeButton</span><span class="pl-c1">&gt;</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import AwesomeButton from &quot;react-native-really-awesome-button&quot;;
 
 function Button() {
@@ -29,7 +34,7 @@ function Button() {
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
     </clipboard-copy>
-  </div>
+  </div></div>
 
 # CSV
   Altere nome-arquivo para nome que deseja.
