@@ -38,11 +38,9 @@ Depoois a function onde vai ficar o Button
 <pre>
 function ExemploFiltro() {
     return (
-      <>
          <GridToolbarContainer>
            <ExportButton/>
          </GridToolbarContainer>
-      </>
     );
   }
 </pre>
