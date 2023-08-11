@@ -40,7 +40,6 @@ Depois a function onde vai ficar o Button
 ```
 function ExemploFiltro() {
     return (
-        <div>
          <GridToolbarContainer>
            <ExportButton/>
          </GridToolbarContainer>
