@@ -12,9 +12,11 @@ Para alterar o nome do arquivo tanto em excel como CSV.
 
 # Excel
   Altere nome-arquivo para nome que deseja.
-
-* XLSX.utils.book_append_sheet(workbook, worksheet, "nome-arquivo");
+<pre>
+  * XLSX.utils.book_append_sheet(workbook, worksheet, "nome-arquivo");
 * XLSX.writeFile(workbook, "nome-arquivo.xlsx", { compression: true });
+</pre>
+
 # CSV
   Altere nome-arquivo para nome que deseja.
 
